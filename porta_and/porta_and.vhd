@@ -1,0 +1,18 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY porta_and IS
+	PORT(
+		E1: IN STD_LOGIC;
+		E2: IN STD_LOGIC;
+		S: OUT STD_LOGIC
+	);
+END porta_and;
+
+ARCHITECTURE porta_and_arch OF porta_and IS
+
+BEGIN
+		S <= E1 and E2;
+END porta_and_arch;

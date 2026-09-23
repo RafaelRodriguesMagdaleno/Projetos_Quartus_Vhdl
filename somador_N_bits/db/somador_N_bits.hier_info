@@ -1,0 +1,277 @@
+|somador_N_bits
+a[0] => somador_1_bit:gen_adders:0:somador.a
+a[1] => somador_1_bit:gen_adders:1:somador.a
+a[2] => somador_1_bit:gen_adders:2:somador.a
+a[3] => somador_1_bit:gen_adders:3:somador.a
+a[4] => somador_1_bit:gen_adders:4:somador.a
+a[5] => somador_1_bit:gen_adders:5:somador.a
+a[6] => somador_1_bit:gen_adders:6:somador.a
+a[7] => somador_1_bit:gen_adders:7:somador.a
+a[8] => somador_1_bit:gen_adders:8:somador.a
+a[9] => somador_1_bit:gen_adders:9:somador.a
+a[10] => somador_1_bit:gen_adders:10:somador.a
+a[11] => somador_1_bit:gen_adders:11:somador.a
+a[12] => somador_1_bit:gen_adders:12:somador.a
+a[13] => somador_1_bit:gen_adders:13:somador.a
+a[14] => somador_1_bit:gen_adders:14:somador.a
+a[15] => somador_1_bit:gen_adders:15:somador.a
+b[0] => somador_1_bit:gen_adders:0:somador.b
+b[1] => somador_1_bit:gen_adders:1:somador.b
+b[2] => somador_1_bit:gen_adders:2:somador.b
+b[3] => somador_1_bit:gen_adders:3:somador.b
+b[4] => somador_1_bit:gen_adders:4:somador.b
+b[5] => somador_1_bit:gen_adders:5:somador.b
+b[6] => somador_1_bit:gen_adders:6:somador.b
+b[7] => somador_1_bit:gen_adders:7:somador.b
+b[8] => somador_1_bit:gen_adders:8:somador.b
+b[9] => somador_1_bit:gen_adders:9:somador.b
+b[10] => somador_1_bit:gen_adders:10:somador.b
+b[11] => somador_1_bit:gen_adders:11:somador.b
+b[12] => somador_1_bit:gen_adders:12:somador.b
+b[13] => somador_1_bit:gen_adders:13:somador.b
+b[14] => somador_1_bit:gen_adders:14:somador.b
+b[15] => somador_1_bit:gen_adders:15:somador.b
+cin => somador_1_bit:gen_adders:0:somador.cin
+s[0] <= somador_1_bit:gen_adders:0:somador.s
+s[1] <= somador_1_bit:gen_adders:1:somador.s
+s[2] <= somador_1_bit:gen_adders:2:somador.s
+s[3] <= somador_1_bit:gen_adders:3:somador.s
+s[4] <= somador_1_bit:gen_adders:4:somador.s
+s[5] <= somador_1_bit:gen_adders:5:somador.s
+s[6] <= somador_1_bit:gen_adders:6:somador.s
+s[7] <= somador_1_bit:gen_adders:7:somador.s
+s[8] <= somador_1_bit:gen_adders:8:somador.s
+s[9] <= somador_1_bit:gen_adders:9:somador.s
+s[10] <= somador_1_bit:gen_adders:10:somador.s
+s[11] <= somador_1_bit:gen_adders:11:somador.s
+s[12] <= somador_1_bit:gen_adders:12:somador.s
+s[13] <= somador_1_bit:gen_adders:13:somador.s
+s[14] <= somador_1_bit:gen_adders:14:somador.s
+s[15] <= somador_1_bit:gen_adders:15:somador.s
+overflow <= somador_1_bit:gen_adders:15:somador.cout
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:0:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:1:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:2:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:3:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:4:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:5:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:6:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:7:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:8:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:9:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:10:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:11:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:12:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:13:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:14:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_N_bits|somador_1_bit:\gen_adders:15:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

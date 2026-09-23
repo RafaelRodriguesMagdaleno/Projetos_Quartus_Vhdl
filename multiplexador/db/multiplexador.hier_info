@@ -1,0 +1,7 @@
+|multiplexador
+E1 => S.DATAB
+E2 => S.DATAA
+SEL => S.OUTPUTSELECT
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+

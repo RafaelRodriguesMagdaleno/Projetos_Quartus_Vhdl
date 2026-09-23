@@ -1,0 +1,5 @@
+|porta_not
+E1 => S.DATAIN
+S <= E1.DB_MAX_OUTPUT_PORT_TYPE
+
+

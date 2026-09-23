@@ -1,0 +1,14 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY porta_not IS
+	PORT(
+		E1: IN STD_LOGIC;
+		S: OUT STD_LOGIC;
+END porta_not;
+
+ARCHITECTURE arch_porta_not OF porta_not IS
+
+BEGIN
+	S <= NOT E1;
+END arch_porta_not;

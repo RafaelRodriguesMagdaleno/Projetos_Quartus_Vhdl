@@ -1,0 +1,21 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY teste IS
+	PORT(
+		E1: IN STD_LOGIC;
+		E2: IN STD_LOGIC;
+		S: OUT STD_LOGIC
+	);
+END teste;
+
+ARCHITECTURE teste_arch OF teste IS 
+
+signal aux: std_logic;
+
+BEGIN
+		aux <= not E1;
+		S <= aux xor E2;
+END teste_arch;

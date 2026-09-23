@@ -1,0 +1,73 @@
+|somador_4_bits
+a[0] => somador_1_bit:somadores:0:somador.a
+a[1] => somador_1_bit:somadores:1:somador.a
+a[2] => somador_1_bit:somadores:2:somador.a
+a[3] => somador_1_bit:somadores:3:somador.a
+b[0] => somador_1_bit:somadores:0:somador.b
+b[1] => somador_1_bit:somadores:1:somador.b
+b[2] => somador_1_bit:somadores:2:somador.b
+b[3] => somador_1_bit:somadores:3:somador.b
+cin => somador_1_bit:somadores:0:somador.cin
+s[0] <= somador_1_bit:somadores:0:somador.s
+s[1] <= somador_1_bit:somadores:1:somador.s
+s[2] <= somador_1_bit:somadores:2:somador.s
+s[3] <= somador_1_bit:somadores:3:somador.s
+overflow <= somador_1_bit:somadores:3:somador.cout
+
+
+|somador_4_bits|somador_1_bit:\somadores:0:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4_bits|somador_1_bit:\somadores:1:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4_bits|somador_1_bit:\somadores:2:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4_bits|somador_1_bit:\somadores:3:somador
+cin => s.IN1
+cin => cout.IN0
+cin => cout.IN0
+a => s.IN0
+a => cout.IN0
+a => cout.IN1
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

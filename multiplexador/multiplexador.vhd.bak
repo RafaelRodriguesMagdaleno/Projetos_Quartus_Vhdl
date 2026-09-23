@@ -1,0 +1,24 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY multiplexador IS
+	PORT (
+		E1, E2, SEL : IN STD_LOGIC;
+		S : OUT STD_LOGIC
+	);
+END ENTITY multiplexador;
+
+ARCHITECTURE arch_multiplexador OF multiplexador IS
+
+BEGIN
+		process(E1,E2,SEL)
+BEGIN
+		if SEL = "0" then
+			S <= E1;
+		else
+			S <= E2;
+		end if;
+	end process;
+end arch_multiplexador;
+
+		

@@ -1,0 +1,24 @@
+|digital_x
+a => porta_and:and1.E1
+b => porta_and:and1.E2
+c => porta_and:and2.E2
+S <= porta_and:and2.S
+
+
+|digital_x|porta_and:and1
+E1 => S.IN0
+E2 => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|digital_x|porta_not:not1
+E1 => S.DATAIN
+S <= E1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|digital_x|porta_and:and2
+E1 => S.IN0
+E2 => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
